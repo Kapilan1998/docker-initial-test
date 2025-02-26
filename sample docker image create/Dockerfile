@@ -2,7 +2,7 @@
 FROM alpine:latest
 
 # command to print "Hello, This is from docker"
-CMD ["echo","Hello, This is from docker"]
+CMD ["echo","Hello, I am going to pulish this image to Docker Hub with tag name as latest"]
 
 # Remove a specific image
     # to remove sprecific image, first need to check whether that image is running inside container or not
